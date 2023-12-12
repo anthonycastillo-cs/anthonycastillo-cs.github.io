@@ -16,34 +16,35 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  
 }
 a {
   border-radius: 8px;
+  border: 3px solid transparent;
   margin: 5px;
   text-decoration: inherit;
   display: inline-block;
+  font-family: inherit;
+  background-color: #1a1a1a;
 }
-img{
+a:visited {
+  color: white;
+}
+a:hover {
+  border-color: #646cff;
+}
+img {
   height: 3em;
   width: 3em;
 }
-
-button {
-  border-radius: 10px;
-  border: 2px solid transparent;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
+#buttons {
   transition: border-color 0.4s;
+  padding: 0.5em;
 }
-button:hover {
-  border-color: #646cff;
-}
-#main{
+#main {
   font-size: 5em;
 }
-#aboutButton{
-  font-size: 2em;
-  color: white;
+#aboutButton {
+  font-size: 2.5em;
+  font-weight:bold;
+  padding: 10px;
 }
