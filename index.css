@@ -36,7 +36,7 @@ img {
   height: 3em;
   width: 3em;
 }
-#buttons {
+.buttons {
   transition: border-color 0.4s;
   padding: 0.5em;
 }
