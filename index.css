@@ -62,3 +62,11 @@ a:hover {
   width: 200px;
   margin-bottom: 10px;
 }
+
+@media only screen and (max-width: 767px){
+  .center-container img{
+    height: 40px;
+    width: auto;
+    margin-bottom: 5px;
+  }
+}
