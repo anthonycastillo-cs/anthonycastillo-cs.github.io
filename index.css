@@ -71,7 +71,7 @@
   height: auto;
   width: auto;
   flex-direction: column;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   justify-content: center;
   align-items: center;
   
@@ -86,7 +86,7 @@
 }
 .center-container {
   display: flex;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 300px;
   width: 50%;
   align-items: center;
