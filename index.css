@@ -4,6 +4,7 @@
   background-color: #222831;
   margin: 0;
   padding: 0;
+  font-weight: 600;
 }
 .header-container {
   display: flex;
@@ -15,6 +16,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-weight: 800;
 }
 .about-container {
   display: flex;
