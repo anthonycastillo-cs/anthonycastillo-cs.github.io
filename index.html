@@ -12,30 +12,36 @@
     <title>Anthony Castillo</title>
   </head>
   <body>
-    <h1 id="main">Anthony Castillo</h1>
-    <a id="aboutButton" href="./AboutMe.html">About</a>
-    <div>
-      <a class="buttons" href="./assets/AnthonyCastilloResume.pdf">
-        <img
-          id="logos"
-          src="./assets/file-earmark-text-fill.svg"
-          alt="resume file"
-        />
-      </a>
-      <a class="buttons" href="https://github.com/anthonythepleb">
-        <img id="logos" src="./assets/github.svg" alt="github site" />
-      </a>
-      <a class="buttons" href="https://www.linkedin.com/in/anthonycastillo-cs/">
-        <img id="logos" src="./assets/linkedin.svg" alt="linkedin profile" />
-      </a>
-      <a class="buttons" href="mailto:508ajc@gmail.com">
-        <img id="logos" src="./assets/envelope.svg" alt="email" />
-      </a>
+    <div class=".header-container">
+      <h1 class="header">Anthony Castillo</h1>
     </div>
-    <div>
-      <h1>Projects</h1>
-      <div  class="center-container">
-        <div>
+    <div class=".about-container">
+      <a class="about" href="./AboutMe.html">About</a>
+    </div>
+    <div class=".button-container">
+      <div class="box">
+        <a class="button" href="./assets/AnthonyCastilloResume.pdf">
+          <img src="./assets/file-earmark-text-fill.svg" alt="resume file" />
+        </a>
+        <a class="button" href="https://github.com/anthonythepleb">
+          <img src="./assets/github.svg" alt="github site" />
+        </a>
+        <a
+          class="button"
+          href="https://www.linkedin.com/in/anthonycastillo-cs/"
+        >
+          <img src="./assets/linkedin.svg" alt="linkedin profile" />
+        </a>
+
+        <a class="button" href="mailto:508ajc@gmail.com">
+          <img src="./assets/envelope.svg" alt="email" />
+        </a>
+      </div>
+    </div>
+    <div class="project-container">
+        <h1 class="project-header">Projects</h1>
+      <div class="center-container">
+        <div class="project-item">
           <a
             href="https://github.com/anthonythepleb/MultithreadSynchronizationAssignment"
           >
@@ -46,12 +52,13 @@
             />Multithreaded Huffman</a
           >
         </div>
-        <div>
+        <div class="project-item">
           <a href="https://github.com/anthonythepleb/anthonythepleb.github.io"
-            ><img id="threading" src="./assets/portfolio.gif" />My Portfolio</a
+            ><img id="threading" src="./assets/portfolio.gif" />
+            My Portfolio</a
           >
         </div>
-        <div>
+        <div class="project-item">
           <a
             href="https://github.com/anthonythepleb/DataScienceHWandLabs/tree/main/HW5%20Project"
             ><img id="threading" src="./assets/databc.gif" /> Breast Cancer
