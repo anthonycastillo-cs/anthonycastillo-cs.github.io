@@ -31,6 +31,7 @@
   margin: auto;
   transition: border-color 0.4s;
   margin-top: 10px;
+  text-decoration:none;
 }
 .about:hover {
   border-color: #00adb5;
@@ -124,4 +125,32 @@
   height: 200px;
   width: 300px;
   margin-bottom: 10px;
+}
+.first-container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: auto; 
+  /* border: 1px solid red; */
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  justify-content: center;
+}
+.info-container{
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid purple; */
+}
+.edu-container{
+  display: flex;
+  /* border: 1px solid orange; */
+  flex-direction: column;
+  margin-top: 10px;
+}
+.first-container h1{
+  margin: 30px;
+}
+.first-container h2{
+  margin: 10px 0;
 }
